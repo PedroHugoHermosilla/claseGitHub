@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+ 
+    background-color: beige;
+
+    
+}
+h2{
+    text-align: center;
+}
+body{
+    background-color: gray;
+    
+}
+nav{
+    display: inline;
+    text-align: center;
+    
+}
+li {
+    display: inline-block;
+    position:relative;
+    font-size: 30px;
+}
+
+.primerTexto{
+    border: solid 10px black;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: antiquewhite;
+     
+  
+
+
+}
+.segundoTexto{
+    font-size: 20px;
+   
+}
+.form{
+    
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;;
+    
+    
+}
+.mapaLocal{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services {
+    background-color: #B3B6B7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    display: flex;
+    
+    
+  
+}
+
+
+.inicio{
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+@media screen and (max-width:640px)and(min-width:480){
+    .box
+{
+
+    
+
+    
+    
+
+.productos{
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-between;
+    margin: 100px;
+    
+
+}
+.anim{
+    
+   animation-duration: 5s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr)
+    
+
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+}
